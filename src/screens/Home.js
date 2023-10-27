@@ -10,7 +10,7 @@ export default function Home() {
 
   const loadData = async () => {
     let response = await fetch(
-      "https://mern-backend-wcrw.onrender.com/api/foodData",
+      "mern-backend-eta.vercel.app/api/foodData",
       {
         method: "POST",
         headers: {
