@@ -16,7 +16,7 @@ export default function Signup() {
     e.preventDefault();
 
     const response = await fetch(
-      "https://go-food-6n2h.onrender.com/api/Signup",
+      "https://mern-backend-wcrw.onrender.com/api/Signup",
       {
         method: "POST",
         headers: {
