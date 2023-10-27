@@ -19,7 +19,7 @@ export default function Cart() {
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
     let response = await fetch(
-      "mern-backend-eta.vercel.app/api/orderData",
+      "https://mern-backend-eta.vercel.app/api/orderData",
       {
         method: "POST",
         headers: {
