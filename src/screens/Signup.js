@@ -16,7 +16,7 @@ export default function Signup() {
     e.preventDefault();
 
     const response = await fetch(
-      "https://mern-backend-wcrw.onrender.com/api/Signup",
+      "mern-backend-eta.vercel.app/api/Signup",
       {
         method: "POST",
         headers: {
