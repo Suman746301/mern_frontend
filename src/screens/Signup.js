@@ -16,7 +16,7 @@ export default function Signup() {
     e.preventDefault();
 
     const response = await fetch(
-      "mern-backend-eta.vercel.app/api/Signup",
+      "https://mern-backend-eta.vercel.app/api/Signup",
       {
         method: "POST",
         headers: {
