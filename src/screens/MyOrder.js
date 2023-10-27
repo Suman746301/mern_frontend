@@ -9,7 +9,7 @@ export default function MyOrder() {
 
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem("userEmail"));
-    await fetch("https://mern-backend-wcrw.onrender.com/api/myOrderData", {
+    await fetch("mern-backend-eta.vercel.app/api/myOrderData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
