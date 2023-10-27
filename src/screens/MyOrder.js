@@ -9,7 +9,7 @@ export default function MyOrder() {
 
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem("userEmail"));
-    await fetch("https://go-food-6n2h.onrender.com/api/myOrderData", {
+    await fetch("https://mern-backend-wcrw.onrender.com/api/myOrderData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
