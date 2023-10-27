@@ -13,7 +13,7 @@ export default function Login() {
     e.preventDefault();
 
     const response = await fetch(
-      "https://mern-backend-eta.vercel.app/api/loginuser",
+      "https://go-food-6n2h.onrender.com/api/loginuser",
       {
         method: "POST",
         headers: {
