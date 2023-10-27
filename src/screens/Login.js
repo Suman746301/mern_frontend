@@ -13,7 +13,7 @@ export default function Login() {
     e.preventDefault();
 
     const response = await fetch(
-      "https://mern-backend-wcrw.onrender.com/api/loginuser",
+      "mern-backend-eta.vercel.app/api/loginuser",
       {
         method: "POST",
         headers: {
